@@ -36,6 +36,6 @@ int main()
     }
    }
 
-   printf("Max profit: " + knapsack(wtArr,wtVal,W,n));
+   printf("Max profit: %d", knapsack(wtArr,wtVal,W,n));
     return 0;
 }
